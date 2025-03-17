@@ -18,7 +18,7 @@ async def _whisper(_, inline_query):
         mm = [
             InlineQueryResultArticle(
                 title="⍟ ᴄʟɪᴄᴋ-ʜᴇʀᴇ ⍟",
-                description=f"@LavyaMusicbot [ USERNAME | ID ] [ TEXT ]",
+                description=f"@NysaMusicbot [ USERNAME | ID ] [ TEXT ]",
                 input_message_content=InputTextMessageContent(f"😍 Usage:\n\n@Nysamusicbot [ USERNAME | ID ] [ TEXT ]"),
                 thumb_url="https://files.catbox.moe/o9kx98.jpg",
                 reply_markup=switch_btn
