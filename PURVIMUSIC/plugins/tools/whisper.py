@@ -111,7 +111,7 @@ async def in_help():
         InlineQueryResultArticle(
             title="⍟ ᴄʟɪᴄᴋ-ʜᴇʀᴇ ⍟",
             description=f"@Nysamusicbot [USERNAME | ID] [TEXT]",
-            input_message_content=InputTextMessageContent(f"**📍Usage:**\n\n@babumusicbot (Target Username or ID) (Your Message).\n\n**Example:**\n@Babumusicbot
+            input_message_content=InputTextMessageContent(f"**📍Usage:**\n\n@Nysamusicbot (Target Username or ID) (Your Message).\n\n**Example:**\n@Nysamusicbot
             @username I Wanna fuck You"),
             thumb_url="https://files.catbox.moe/o9kx98.jpg",
             reply_markup=switch_btn
